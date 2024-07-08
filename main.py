@@ -1,7 +1,3 @@
-# 註解筆記
-# 代表註解的行
-"""
-這是多行註解
-"""
+import streamlit as st
 
-# print("hello")#ctrl+? 可以單行註解
+st.title("Python學習網站")
