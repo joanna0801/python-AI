@@ -3,7 +3,6 @@ import os
 
 folderpath = "markdown"  # 這是相對路徑, C:\Users\milov\OneDrive\桌面\python-AI\markdown
 files = os.listdir(folderpath)  # 列出所有檔案
-print(files)  # 列出所有檔案
 files_name = []  # 建立空的列表
 for f in files:
     if f.endswith(".md"):  # 判斷是否為.md檔案
