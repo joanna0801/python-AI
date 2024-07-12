@@ -15,3 +15,7 @@ number = st.number_input(
 arrow = ""
 for i in range(1, number * 2, 2):
     arrow += " " * ((number * 2 - i) // 2 + "*" * i)
+
+
+if x > 5:
+    x = 20
